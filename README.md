@@ -5,3 +5,5 @@ This is a portfolio website of Viral Joshi. This website is developed in HTML, C
 bootstrap CSS framework and jQuery Javascript framework.
 
 Viral Joshi
+
+Enjoy Codes!
