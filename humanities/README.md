@@ -1,1 +1,0 @@
-Humanities College Class project
