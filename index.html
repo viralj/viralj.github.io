@@ -21,6 +21,9 @@
 <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.css">
 <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
 
+<!-- sweet alert css and js -->
+<script src="//t4t5.github.io/sweetalert/dist/sweetalert-dev.js"></script>
+<link rel="stylesheet" href="//t4t5.github.io/sweetalert/dist/sweetalert.css">
 
 <!--google font style-->
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,800,300' rel='stylesheet' type='text/css'>
@@ -40,7 +43,7 @@
 #d_res{
 	cursor:pointer;
 }
-</style>		
+</style>
 </head>
 <body>
 
@@ -716,6 +719,17 @@ $( ".navbar-toggle" ).click(function() {
 <script src="js/jquery.easing.min.js"></script>
 <script src="js/jquery.easypiechart.js"></script>
 
+<!-- showing an alert box (sweetalert) to tell user about all new website-->
+<script>
+	$(document).ready(function(){
+		swal({   
+			title: "Sweet!",
+			text: "Hey, I've launched my new website/blog. You might wanna check it out at http://viru.me",
+			imageUrl: "images/thumbs-up.jpg" 
+			
+		});
+	});
+</script>
 
 <!--contact form js
 <script type="text/javascript" src="js/jquery.contact.js"></script>
